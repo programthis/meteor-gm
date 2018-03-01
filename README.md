@@ -1,7 +1,8 @@
 # Installation Instructions
 Add this docker image to the meteor-up config file as seen in the below example:
 
-`module.exports = {
+```
+module.exports = {
 
     servers: {
 
@@ -38,4 +39,5 @@ Add this docker image to the meteor-up config file as seen in the below example:
         one: {}
       }
     }
-};`
+};
+```
