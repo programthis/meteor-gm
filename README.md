@@ -1,3 +1,6 @@
+# Build Instructions
+After modifying a new docker image, it then needs to be built and deployed to the docker.com hosting site.
+
 # Installation Instructions
 Add this docker image to the meteor-up config file as seen in the below example:
 
