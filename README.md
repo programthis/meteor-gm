@@ -1,6 +1,10 @@
 # Build Instructions
 After modifying a new docker image, it then needs to be built and deployed to the docker.com hosting site.
 
+# Usage:
+To deploy a new build
+```docker push programthis/meteor-gm:latest```
+
 # Installation Instructions
 Add this docker image to the meteor-up config file as seen in the below example:
 
