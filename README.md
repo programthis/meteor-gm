@@ -2,6 +2,11 @@
 After modifying a new docker image, it then needs to be built and deployed to the docker.com hosting site.
 
 # Usage:
+
+To build the image:
+```docker build -t programthis/meteor-gm:latest .```
+
+
 To deploy a new build
 ```docker push programthis/meteor-gm:latest```
 
