@@ -1,4 +1,4 @@
-FROM abernix/meteord:node-12-base
+FROM zodern/meteor:latest
 
 RUN apt-get update && apt-get install -y \
 	graphicsmagick \
