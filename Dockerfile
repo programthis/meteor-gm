@@ -1,6 +1,6 @@
 FROM zodern/meteor:latest
 
-USER 0
+USER root
 RUN apt-get update && apt-get install -y \
 	graphicsmagick \
 	graphicsmagick-imagemagick-compat \
